@@ -34,7 +34,6 @@ def operatetext():
 		u_lines.sort()
 	ui.plainTextEdit.setPlainText("\n".join(u_lines))
 	ui.plainTextEdit.repaint()
-	print(u_lines)
 
 #clicks
 ui.pushButton.clicked.connect(operatetext)
